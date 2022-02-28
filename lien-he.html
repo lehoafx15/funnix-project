@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Liên Hệ</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">-->
+        <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-red.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./css/setcss.css">
+        <link rel="stylesheet" href="./css/main.css">
+    </head>
+    <body>
+        <div class="w3-top">
+            <div class="w3-bar w3-theme w3-card" id="myNavbar">
+                <a href="#home" class="w3-bar-item w3-button w3-wide w3-logo">LOGO</i></a>
+                <!-- Right-sided navbar links -->
+                <div class="w3-right w3-hide-small">
+                    <a href="index.html" class="w3-bar-item w3-button">Trang Chủ</a>
+                    <a href="am-thuc.html" class="w3-bar-item w3-button">Ẩm Thực</a>
+                    <a href="danh-lam.html" class="w3-bar-item w3-button">Danh Lam</a>
+                    <a href="du-lich.html" class="w3-bar-item w3-button">Du Lịch</a>
+                    <a href="lien-he.html" class="w3-bar-item w3-button">Liên Hệ</a>
+                </div>
+                <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+                <a href="#home" class="w3-bar-item w3-button w3-wide w3-right w3-logo-mobile" style="display: none;">LOGO</a>
+                <a href="javascript:void(0)" class="w3-bar-item w3-button w3-hide-large w3-hide-medium" onclick="w3_open()">
+                <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- Sidebar on small screens when clicking the menu icon -->
+        <nav class="w3-sidebar w3-bar-block w3-light-greyk w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+            <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-hover-red w3-padding-16">Close ×</a>
+            <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-red">Trang Chủ</a>
+            <a href="am-thuc.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-red">Ẩm Thực</a>
+            <a href="danh-lam.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-red">Danh Lam</a>
+            <a href="du-lich.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-red">Du Lịch</a>
+            <a href="lien-he.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-red">Liên Hệ</a>
+        </nav>
+        <header id="header" class="w3-padding-32 w3-container" id="home">
+            <!-- bannner slide -->
+            <div id="w3-slide" class=" w3-card">
+                <img class="mySlides w3-image" src="./images/slider/phoi-canh-thanh-son-riverside-phu-tho.jpg" style="width:100%">
+                <img class="mySlides w3-image" src="./images/slider/den-hung-bia-1-1.jpg" style="width:100%">
+                <img class="mySlides w3-image" src="./images/slider/kinh-nghiem-du-lich-phu-tho.jpg" style="width:100%">
+                <img class="mySlides w3-image" src="./images/slider/484_ghe_tham_5_dia_danh_hoang_so_tuyet_dep_tai_phu_tho.jpg" style="width:100%">
+                <img class="mySlides w3-image" src="./images/slider/antd-co-phu-tho-3227.jpg" style="width:100%">
+                <img class="mySlides w3-image" src="./images/slider/photo-1-1642657181620487980828-0-91-287-550-crop-1642657208774-63778297797665.jpg" style="width:100%">
+            
+                <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+            </div>
+        </header>
+        <main id="main" class="w3-container w3-padding-32">
+            <div class="w3-display-containe w3-card">
+                <div class="w3-row">
+                    <div class="w3-container w3-padding-16">
+                        <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Ffrontendcommunityvn&width=150&layout=button_count&action=like&size=small&share=true&height=46&appId" width="150" height="26" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                    </div>
+                    <div class="w3-col l4 m12 s12 w3-card-div">
+                        <div class="w3-card-img">
+                            <img src="./images/270052269_3201358650186392_5496043751698998798_n.jpg" alt="Alps">
+                        </div>
+                        <h2>Lê Huy Hòa</h2>
+                        <div class="w3-card-social">
+                            <a href="https://www.facebook.com/kupindh" target="_blank"><i class="fa fa-facebook"></i></i></a>
+                            <a href="https://www.youtube.com" target="_blank"><i class="fa fa-youtube"></i></a>
+                            <a href="" target="_blank"><i class="fa fa-twitter"></i></a>
+                            <a href="" target="_blank"><i class="fa fa-github"></i></a>
+                        </div>
+                        <button class="w3-card-btn w3-btn w3-border w3-border-red w3-round-large"><i class="fa fa-thumbs-o-up"></i></button>
+                    </div>
+                   <div class="w3-col l8 m12 s12">
+                       <div class="w3-container w3-card-4 w3-padding-32">
+                           <h2>Programming</h2>
+                           <div class="w3-light-grey w3-round-xlarge">
+                            <div class="w3-container w3-blue w3-center w3-round-xlarge" style="width:85%">html</div>
+                          </div><br>
+                          <div class="w3-light-grey w3-round-xlarge">
+                            <div class="w3-container w3-green w3-center w3-round-xlarge" style="width:75%">css</div>
+                          </div><br>
+                          <div class="w3-light-grey w3-round-xlarge">
+                            <div class="w3-container w3-red w3-center w3-round-xlarge" style="width:60%">JavaScript</div>
+                          </div><br>
+                          <div class="w3-light-grey w3-round-xlarge">
+                            <div class="w3-container w3-blue w3-center w3-round-xlarge" style="width:85%">jquery</div>
+                          </div><br>
+                          <div class="w3-light-grey w3-round-xlarge">
+                            <div class="w3-container w3-green w3-center w3-round-xlarge" style="width:85%">bootstrap</div>
+                          </div><br>
+                          <div class="w3-light-grey w3-round-xlarge">
+                            <div class="w3-container w3-red w3-center w3-round-xlarge" style="width:75%">w3.css</div>
+                          </div><br>
+                          <div class="w3-light-grey w3-round-xlarge">
+                            <div class="w3-container w3-blue w3-center w3-round-xlarge" style="width:85%">laravel Frameworks</div>
+                          </div>
+                       </div>
+
+                       <div class="w3-card-4 w3-padding-32">
+                        <form action="#" class="w3-container w3-card-4 w3-light-grey w3-text-blue w3-margin">
+                            <h2 class="w3-center">Contact</h2>
+                             
+                            <div class="w3-row w3-section">
+                              <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
+                                <div class="w3-rest">
+                                  <input class="w3-input w3-border" name="first" type="text" placeholder="First Name">
+                                </div>
+                            </div>
+                            
+                            <div class="w3-row w3-section">
+                              <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
+                                <div class="w3-rest">
+                                  <input class="w3-input w3-border" name="last" type="text" placeholder="Last Name">
+                                </div>
+                            </div>
+                            
+                            <div class="w3-row w3-section">
+                              <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-envelope-o"></i></div>
+                                <div class="w3-rest">
+                                  <input class="w3-input w3-border" name="email" type="text" placeholder="Email">
+                                </div>
+                            </div>
+                            
+                            <div class="w3-row w3-section">
+                              <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-phone"></i></div>
+                                <div class="w3-rest">
+                                  <input class="w3-input w3-border" name="phone" type="text" placeholder="Phone">
+                                </div>
+                            </div>
+                            <div class="w3-row w3-section">
+                                <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-pencil"></i></div>
+                                  <div class="w3-rest">
+                                    <input class="w3-input w3-border" name="message" type="text" placeholder="Message">
+                                  </div>
+                              </div>
+                              
+                              <button class="w3-button w3-block w3-section w3-blue w3-ripple w3-padding">Send</button>
+                              
+                              </form>
+                   </div>
+                </div>
+            </div>
+        </main>
+        
+
+        <footer class="w3-display-containe">
+            <div class="w3-row w3-card-2">
+                <div class="w3-col s12 m4 l4">
+                    <div class="w3-container w3-padding-32 ">
+                        <h4>Ẩm thực</h4>
+                        <br>
+                        <p>Thịt chua Thanh Sơn vốn là món ngon nổi tiếng của dân tộc Mường. Thành phần gốc của thịt chua là thịt lợn tươi sống, ướp trong thính gạo và để chín tự nhiên. Khi thưởng thức món thịt chua, bạn sẽ dùng cùng lá ổi, đinh lăng, lá sung,... </p>
+                        <br>
+                        <a href="am-thuc.html">Ẩm thực</a>
+                    </div>
+                </div>
+                <div class="w3-col s12 m4 l4">
+                    <div class="w3-container w3-padding-32">
+                        <h4>Danh lam và thắng cảnh</h4>
+                        <br>
+                        <p>Khu di tích lịch sử Đền Hùng là di tích lịch sử văn hoá đặc biệt quan trọng của quốc gia, một quần thể kiến trúc tuyệt vời trên núi Nghĩa Lĩnh (cao 175m) thuộc thôn Cổ Tích, xã Hy Cương, thành phố Việt Trì, tỉnh Phú Thọ.</p>
+                        <br>
+                        <a href="danh-lam.html">Danh lam và thắng cảnh</a>
+                    </div>
+                </div>
+                <div class="w3-col s12 m4 l4">
+                    <div class="w3-container w3-padding-32">
+                        <h4>Địa điểm du lịch</h4>
+                        <br>
+                        <p>Phú Thọ có nền văn hoá rực rỡ từ lâu đời. Những di chỉ khảo cổ văn hoá Sơn Vi, Đồng Đậu, Làng Cả và nhiều đình, chùa, lăng, tẩm còn lại quanh vùng núi Nghĩa Lĩnh cho thấy đất Phong Châu là một trung tâm văn hoá của dân tộc Việt. Di tích lịch sử quan trọng là đền quốc mẫu Âu Cơ, khu di tích đền Hùng.</p>
+                        <br>
+                        <a href="du-lich.html">Địa điểm du lịch nổi tiếng</a>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-center w3-black w3-padding-16">
+                <a href="#main">Lên đầu trang</a>
+            </div>
+            <div class="w3-copyright">
+                <p>
+                    <i class="fa fa-copyright" aria-hidden="true"></i>
+                    28/2/2022 My Blog. All rights.
+                </p>
+            </div>
+        </footer>
+
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <script src="https://www.w3schools.com/lib/w3.js"></script>
+        <script src="./js/stile.js" async defer></script>
+    </body>
+</html>

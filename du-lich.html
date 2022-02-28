@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Du lịch tại Phú Thọ</title>
+        <meta name="robots">
+        <meta name="googlebot">
+        <meta name="robots" content="noindex,nofollow">
+        <meta name="description" content="du lịch tại phú thọ,du lịch đảo ngọc,dền quốc mẫu,đền hùng,du lịch long cốc">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">-->
+        <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-red.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./css/setcss.css">
+        <link rel="stylesheet" href="./css/main.css">
+    </head>
+    <body>
+        <div class="w3-top">
+            <div class="w3-bar w3-theme w3-card" id="myNavbar">
+                <a href="#home" class="w3-bar-item w3-button w3-wide w3-logo">LOGO</i></a>
+                <!-- Right-sided navbar links -->
+                <div class="w3-right w3-hide-small">
+                    <a href="index.html" class="w3-bar-item w3-button">Trang Chủ</a>
+                    <a href="am-thuc.html" class="w3-bar-item w3-button">Ẩm Thực</a>
+                    <a href="danh-lam.html" class="w3-bar-item w3-button">Danh Lam</a>
+                    <a href="du-lich.html" class="w3-bar-item w3-button">Du Lịch</a>
+                    <a href="lien-he.html" class="w3-bar-item w3-button">Liên Hệ</a>
+                </div>
+                <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+                <a href="#home" class="w3-bar-item w3-button w3-wide w3-right w3-logo-mobile" style="display: none;">LOGO</a>
+                <a href="javascript:void(0)" class="w3-bar-item w3-button w3-hide-large w3-hide-medium" onclick="w3_open()">
+                <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- Sidebar on small screens when clicking the menu icon -->
+        <nav class="w3-sidebar w3-bar-block w3-light-greyk w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+            <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-hover-red w3-padding-16">Close ×</a>
+            <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-red">Trang Chủ</a>
+            <a href="am-thuc.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-red">Ẩm Thực</a>
+            <a href="danh-lam.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-red">Danh Lam</a>
+            <a href="du-lich.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-red">Du Lịch</a>
+            <a href="lien-he.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-red">Liên Hệ</a>
+        </nav>
+        <header id="header" class="w3-padding-32 w3-container" id="home">
+            <!-- bannner slide -->
+            <div id="w3-slide" class=" w3-card">
+                <img class="mySlides w3-image" src="./images/slider/phoi-canh-thanh-son-riverside-phu-tho.jpg" style="width:100%">
+                <img class="mySlides w3-image" src="./images/slider/den-hung-bia-1-1.jpg" style="width:100%">
+                <img class="mySlides w3-image" src="./images/slider/kinh-nghiem-du-lich-phu-tho.jpg" style="width:100%">
+                <img class="mySlides w3-image" src="./images/slider/484_ghe_tham_5_dia_danh_hoang_so_tuyet_dep_tai_phu_tho.jpg" style="width:100%">
+                <img class="mySlides w3-image" src="./images/slider/antd-co-phu-tho-3227.jpg" style="width:100%">
+                <img class="mySlides w3-image" src="./images/slider/photo-1-1642657181620487980828-0-91-287-550-crop-1642657208774-63778297797665.jpg" style="width:100%">
+            
+                <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+            </div>
+        </header>
+        <main id="main" class="w3-container w3-padding-32">
+            <div class="w3-display-containe w3-card">
+                <div class="w3-row">
+                    <div class="w3-col s12 l2">
+                        <div class="w3-container w3-padding-16">
+                            <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Ffrontendcommunityvn&width=150&layout=button_count&action=like&size=small&share=true&height=46&appId" width="150" height="26" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                        </div>
+                        <ul class="w3-ul w3-hoverable">
+                            <h4 class="w3-center">Tóm tắt ngắn</h4>
+                            <li>1. <a href="#den-hung">Đền Hùng</a></li>
+                            <li>2. <a href="#den-tam-giang">Đền Tam Giang và Chùa Đại Bi</a></li>
+                            <li>3. <a href="#dam-ao-chau">Đầm Ao Châu</a></li>
+                            <li>4. <a href="#quoc-mau-au-co">Đền Quốc Mẫu Âu Cơ</a></li>
+                            <li>5. <a href="#vuon-quoc-gia">Vườn Quốc gia Xuân Sơn</a></li>
+                            <li>6. <a href="#long-coc">Đồi chè Long Cốc</a></li>
+                            <li>7. <a href="#van-lang">Công viên Văn Lang</a></li>
+                            <li>8. <a href="#dao-ngoc">Đảo Ngọc Xanh</a></li>
+                        </ul>
+                    </div>
+                    <div class="w3-col s12 l10">
+                        <!-- About Section -->
+                        <div id="den-hung" class="w3-container w3-padding-32">
+                            <h2 class="w3-border-bottom w3-border-light-grey">Đền Hùng</h2>
+                            <p>Đền Hùng là một quần thể du lịch đền chùa nổi tiếng gần xa ở Phú Thọ, được xem là nơi hội tụ những tinh hoa và đặc sắc của dân tộc. Khi đến với Đền Hùng vào dịp Giỗ tổ hàng năm, bạn sẽ được hòa mình vào không khí rộn ràng, náo nhiệt của lễ dâng hương ở đây.</p>
+                            <footer class="w3-blockquote-footer">
+                                <p><span>Địa Chỉ :</span>Thôn Cổ Tích, Thành phố Việt Trì, Phú Thọ.</p>
+                                <p>Nguồn Wikipedia</p>
+                            </footer>
+                        </div>
+                        <!-- img Section -->
+                        <div class="w3-row-padding">
+                            <div class="w3-col l6 m12 s12 w3-margin-bottom">
+                                <div class="w3-display-containe w3-zoom">
+                                    <img src="./images/du-lich/den-hung-phu-tho-5.jpg" alt="den hung" class="w3-image">
+                                </div>
+                            </div>
+                            <div class="w3-col l6 m12 s12 w3-margin-bottom">
+                                <div class="w3-display-containe w3-zoom">
+                                    <img src="./images/du-lich/9-dia-diem-du-lich-phu-tho-dep-hap-dan-moi-du-khach-202201131439224344.jpg" alt="den hung phu thọ" class="w3-image">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- About Section -->
+                        <div id="den-tam-giang" class="w3-container w3-padding-32">
+                            <h2 class="w3-border-bottom w3-border-light-grey">Đền Tam Giang và Chùa Đại Bi</h2>
+                            <p>Đền Tam Giang - Chùa Đại Bi nằm ở tả ngạn, là nơi hợp lưu của ba dòng sông: Sông Hồng, sông Lô và sông Đà. Đến với nơi đây vào đúng các dịp lễ, bạn sẽ được thưởng thức những hình thức diễn xướng dân gian và đa dạng các hình thức của tín ngưỡng thờ Mẫu. Vậy nên đừng nên bỏ qua địa điểm này khi đến Phú Thọ bạn nhé.</p>
+                            <footer class="w3-blockquote-footer">
+                                <p><span>Địa Chỉ :</span>Ph. Bạch Hạc, Thành phố Việt Trì, Phú Thọ.</p>
+                                <p>Nguồn Wikipedia</p>
+                            </footer>
+                        </div>
+                        <!-- img Section -->
+                        <div class="w3-row-padding">
+                            <div class="w3-col l12 m12 s12 w3-margin-bottom">
+                                <div class="w3-display-containe w3-zoom">
+                                    <img src="./images/du-lich/9-dia-diem-du-lich-phu-tho-dep-hap-dan-moi-du-khach-202107081437392812.jpg" alt="den tam giang" class="w3-image">
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                        <!-- About Section -->
+                        <div id="dam-ao-chau" class="w3-container w3-padding-32">
+                            <h2 class="w3-border-bottom w3-border-light-grey">Đầm Ao Châu</h2>
+                            <p>Đầm Ao Châu Phú Thọ sở hữu diện tích khoảng 300ha với khoảng 100 hòn đảo lớn nhỏ trải khắp mặt hồ. Đến với nơi đây, bạn sẽ có cho mình vô vàn những bức ảnh đẹp cùng với việc được trải nghiệm các hoạt động thú vị như câu cá, hái vải, chèo thuyền,...</p>
+                            <footer class="w3-blockquote-footer">
+                                <p><span>Địa Chỉ :</span>TT. Hạ Hoà, Hạ Hòa, Phú Thọ.</p>
+                                <p>Nguồn Wikipedia</p>
+                            </footer>
+                        </div>
+                        <!-- img Section -->
+                        <div class="w3-row-padding">
+                            <div class="w3-col l12 m12 s12 w3-margin-bottom">
+                                <div class="w3-display-containe w3-zoom">
+                                    <img src="./images/du-lich/9-dia-diem-du-lich-phu-tho-dep-hap-dan-moi-du-khach-202107081443038319.jpg" alt="dam ao chau" class="w3-image">
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                        <!-- About Section -->
+                        <div id="quoc-mau-au-co" class="w3-container w3-padding-32">
+                            <h2 class="w3-border-bottom w3-border-light-grey">Đền Quốc Mẫu Âu Cơ</h2>
+                            <p>Đền Mẫu Âu Cơ sở hữu các kết cấu kiến trúc đền chùa cổ được làm gỗ với nhiều chi tiết chạm khắc đẹp, mang đậm phong cách thời Nguyễn. Bên trong đền có với nhiều bức tượng quý cùng các cổ vật vô giá. Mỗi năm, từ ngày mùng 8 đến mùng 10 tháng 3, nơi đây đều diễn ra lễ hội đền Quốc Mẫu Âu Cơ vô cùng náo nhiệt.</p>
+                            <footer class="w3-blockquote-footer">
+                                <p><span>Địa Chỉ :</span>Hiền Lương, Hạ Hòa, Phú Thọ.</p>
+                                <p>Nguồn Wikipedia</p>
+                            </footer>
+                        </div>
+                        <!-- img Section -->
+                        <div class="w3-row-padding">
+                            <div class="w3-col l6 m12 s12 w3-margin-bottom">
+                                <div class="w3-display-containe w3-zoom">
+                                    <img src="./images/du-lich/9-dia-diem-du-lich-phu-tho-dep-hap-dan-moi-du-khach-202107081523129074.jpg" alt="den quoc mau" class="w3-image">
+                                </div>
+                            </div>
+                            <div class="w3-col l6 m12 s12 w3-margin-bottom">
+                                <div class="w3-display-containe w3-zoom">
+                                    <img src="./images/du-lich/t7-vinh-ha-02-1555053907.jpg" alt="den quoc mau phu tho" class="w3-image">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- About Section -->
+                        <div id="vuon-quoc-gia" class="w3-container w3-padding-32">
+                            <h2 class="w3-border-bottom w3-border-light-grey">Vườn Quốc gia Xuân Sơn</h2>
+                            <p>Vườn Quốc gia Xuân Sơn là khu du lịch sinh thái với các dãy núi đá vôi cùng rừng cây xanh thẳm và các hang động tự nhiên. Đến với nơi này bạn sẽ được đắm mình vào thiên nhiên hoang sơ, xanh ngát, thoáng đãng và vô cùng mát mẻ.</p>
+                            <footer class="w3-blockquote-footer">
+                                <p><span>Địa Chỉ :</span>Tân Sơn, Phú Thọ.</p>
+                                <p>Nguồn Wikipedia</p>
+                            </footer>
+                        </div>
+                        <!-- img Section -->
+                        <div class="w3-row-padding">
+                            <div class="w3-col l6 m12 s12 w3-margin-bottom">
+                                <div class="w3-display-containe w3-zoom">
+                                    <img src="./images/du-lich/9-dia-diem-du-lich-phu-tho-dep-hap-dan-moi-du-khach-202107081527475378.jpg" alt="vuon quoc gia" class="w3-image">
+                                </div>
+                            </div>
+                            <div class="w3-col l6 m12 s12 w3-margin-bottom">
+                                <div class="w3-display-containe w3-zoom">
+                                    <img src="./images/du-lich/con-nuoc.jpg" alt="vuon quoc gia xuan son" class="w3-image">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- About Section -->
+                        <div id="long-coc" class="w3-container w3-padding-32">
+                            <h2 class="w3-border-bottom w3-border-light-grey">Đồi chè Long Cốc</h2>
+                            <p>Đồi chè Long Cốc sở hữu không khí trong lành, mát mẻ cùng không gian yên bình, mộc mạc. Bạn sẽ được hòa mình vào khí trời thoang thoảng vị thơm thơm, chát chát đặc trưng khi đến với đồi chè Long Cốc nha.</p>
+                            <footer class="w3-blockquote-footer">
+                                <p><span>Địa Chỉ :</span>Long Cốc, Tân Sơn, Phú Thọ.</p>
+                                <p>Nguồn Wikipedia</p>
+                            </footer>
+                        </div>
+                        <!-- img Section -->
+                        <div class="w3-row-padding">
+                            <div class="w3-col l6 m12 s12 w3-margin-bottom">
+                                <div class="w3-display-containe w3-zoom">
+                                    <img src="./images/du-lich/9-dia-diem-du-lich-phu-tho-dep-hap-dan-moi-du-khach-202107081530025003.jpg" class="w3-image">
+                                </div>
+                            </div>
+                            <div class="w3-col l6 m12 s12 w3-margin-bottom">
+                                <div class="w3-display-containe w3-zoom">
+                                    <img src="./images/du-lich/Doi_che_Long_Coc_Phu_Tho_11.jpg" class="w3-image">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w3-row-padding">
+                            <div class="w3-col l6 m12 s12 w3-margin-bottom">
+                                <div class="w3-display-containe w3-zoom">
+                                    <img src="./images/du-lich/Doi_che_Long_Coc_Phu_Tho_13.jpg" class="w3-image">
+                                </div>
+                            </div>
+                            <div class="w3-col l6 m12 s12 w3-margin-bottom">
+                                <div class="w3-display-containe w3-zoom">
+                                    <img src="./images/du-lich/Doi_che_Long_Coc_Phu_Tho_8.jpg" class="w3-image">
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- About Section -->
+                        <div id="van-lang" class="w3-container w3-padding-32">
+                            <h2 class="w3-border-bottom w3-border-light-grey">Công viên Văn Lang</h2>
+                            <p>Công viên Văn Lang là nơi hội tụ các biểu tượng độc đáo từ thời vua Hùng và đã đạt được giải kiến trúc Quốc gia vào năm 2000. Nơi đây đặc biệt đẹp hơn về đêm nhờ các ánh đèn được lắp đặt ở khắp công viên. Nếu có dịp đến Phú Thọ, đừng nên bỏ lỡ địa điểm đẹp đẽ này bạn nha.</p>
+                            <footer class="w3-blockquote-footer">
+                                <p><span>Địa Chỉ :</span>Trưng Vương, Thành phố Việt Trì, Phú Thọ.</p>
+                                <p>Nguồn Wikipedia</p>
+                            </footer>
+                        </div>
+                        <!-- img Section -->
+                        <div class="w3-row-padding">
+                            <div class="w3-col l6 m12 s12 w3-margin-bottom">
+                                <div class="w3-display-containe w3-zoom">
+                                    <img src="./images/du-lich/274725179_2743436099296251_7014513397577255023_n.jpg" class="w3-image">
+                                </div>
+                            </div>
+                            <div class="w3-col l6 m12 s12 w3-margin-bottom">
+                                <div class="w3-display-containe w3-zoom">
+                                    <img src="./images/du-lich/cong-vien-van-lang.jpg" class="w3-image">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w3-row-padding">
+                            <div class="w3-col l6 m12 s12 w3-margin-bottom">
+                                <div class="w3-display-containe w3-zoom">
+                                    <img src="./images/du-lich/cau-di-bo-hot-nhat-phu-tho-1.jpg" class="w3-image">
+                                </div>
+                            </div>
+                            <div class="w3-col l6 m12 s12 w3-margin-bottom">
+                                <div class="w3-display-containe w3-zoom">
+                                    <img src="./images/du-lich/9-dia-diem-du-lich-phu-tho-dep-hap-dan-moi-du-khach-202107081535580256.jpg" class="w3-image">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- About Section -->
+                        <div id="dao-ngoc" class="w3-container w3-padding-32">
+                            <h2 class="w3-border-bottom w3-border-light-grey">ĐẢO NGỌC XANH</h2>
+                            <p>Đảo Ngọc Xanh có diện tích khoảng 65 hecta với tổng thể du lịch sinh thái hấp dẫn. Mở cửa bắt đầu từ 7h đến 19h từ thứ 2 đến chủ nhật với nhiều hoạt động bổ ích. Nơi đây có mạch nước khoáng nóng tự nhiên chảy bên dưới, sau được con người khai thác và xây dựng. Muốn khám phá hết nơi đây một cách thuận lợi nhất nên chọn trang phục thể thao dễ di chuyển như giày thể thao, áo phông, quần short hoặc dép để đi tắm.</p>
+                            <footer class="w3-blockquote-footer">
+                                <p><span>Địa Chỉ :</span>TT La Phù, huyện Thanh Thủy, Phú Thọ.</p>
+                                <p>Nguồn Wikipedia</p>
+                            </footer>
+                        </div>
+                        <!-- img Section -->
+                        <div class="w3-row-padding">
+                            <div class="w3-col l6 m12 s12 w3-margin-bottom">
+                                <div class="w3-display-containe w3-zoom">
+                                    <img src="./images/du-lich/du-lich-dao-ngoc-xanh-phu-tho-6.jpg" class="w3-image">
+                                </div>
+                            </div>
+                            <div class="w3-col l6 m12 s12 w3-margin-bottom">
+                                <div class="w3-display-containe w3-zoom">
+                                    <img src="./images/du-lich/du-lich-dao-ngoc-xanh-phu-tho-1.jpg" class="w3-image">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w3-row-padding">
+                            <div class="w3-col l6 m12 s12 w3-margin-bottom">
+                                <div class="w3-display-containe w3-zoom">
+                                    <img src="./images/du-lich/du-lich-dao-ngoc-xanh-phu-tho-4.jpg" class="w3-image">
+                                </div>
+                            </div>
+                            <div class="w3-col l6 m12 s12 w3-margin-bottom">
+                                <div class="w3-display-containe w3-zoom">
+                                    <img src="./images/du-lich/d1.jpg" class="w3-image">
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+
+        <footer class="w3-display-containe">
+            <div class="w3-row w3-card-2">
+                <div class="w3-col s12 m4 l4">
+                    <div class="w3-container w3-padding-32 ">
+                        <h4>Ẩm thực</h4>
+                        <br>
+                        <p>Thịt chua Thanh Sơn vốn là món ngon nổi tiếng của dân tộc Mường. Thành phần gốc của thịt chua là thịt lợn tươi sống, ướp trong thính gạo và để chín tự nhiên. Khi thưởng thức món thịt chua, bạn sẽ dùng cùng lá ổi, đinh lăng, lá sung,... </p>
+                        <br>
+                        <a href="am-thuc.html">Ẩm thực</a>
+                    </div>
+                </div>
+                <div class="w3-col s12 m4 l4">
+                    <div class="w3-container w3-padding-32">
+                        <h4>Danh lam và thắng cảnh</h4>
+                        <br>
+                        <p>Khu di tích lịch sử Đền Hùng là di tích lịch sử văn hoá đặc biệt quan trọng của quốc gia, một quần thể kiến trúc tuyệt vời trên núi Nghĩa Lĩnh (cao 175m) thuộc thôn Cổ Tích, xã Hy Cương, thành phố Việt Trì, tỉnh Phú Thọ.</p>
+                        <br>
+                        <a href="danh-lam.html">Danh lam và thắng cảnh</a>
+                    </div>
+                </div>
+                <div class="w3-col s12 m4 l4">
+                    <div class="w3-container w3-padding-32">
+                        <h4>Địa điểm du lịch</h4>
+                        <br>
+                        <p>Phú Thọ có nền văn hoá rực rỡ từ lâu đời. Những di chỉ khảo cổ văn hoá Sơn Vi, Đồng Đậu, Làng Cả và nhiều đình, chùa, lăng, tẩm còn lại quanh vùng núi Nghĩa Lĩnh cho thấy đất Phong Châu là một trung tâm văn hoá của dân tộc Việt. Di tích lịch sử quan trọng là đền quốc mẫu Âu Cơ, khu di tích đền Hùng.</p>
+                        <br>
+                        <a href="du-lich.html">Địa điểm du lịch nổi tiếng</a>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-center w3-black w3-padding-16">
+                <a href="#main">Lên đầu trang</a>
+            </div>
+            <div class="w3-copyright">
+                <p>
+                    <i class="fa fa-copyright" aria-hidden="true"></i>
+                    28/2/2022 My Blog. All rights.
+                </p>
+            </div>
+        </footer>
+
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <script src="https://www.w3schools.com/lib/w3.js"></script>
+        <script src="./js/stile.js" async defer></script>
+    </body>
+</html>
