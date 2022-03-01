@@ -33,6 +33,11 @@ header{
     height: 450px;
 }
 
+.w3-block-thumb img {
+max-width: 500px;
+height: auto;
+}
+
 .w3-copyright {
     font-size: 1em;
     text-align: right;
