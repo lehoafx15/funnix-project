@@ -33,7 +33,7 @@ header{
     height: 450px;
 }
 
-.w3-block-thumb img {
+.w3-thumb img {
 max-width: 500px;
 height: auto;
 }
